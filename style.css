@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-size: 0.8rem;
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.container{
+    /* min-height: 100vh; */
+    width: 100wh; 
+    display: grid;
+    grid-template-rows: 100vh 40vh 55vh auto;
+    font-family: Camfortaa, sans-serif;
+}
+.portfolio {
+    background-color: #fb7a5f;
+    display: grid;
+    /* grid-template-rows: 2rem 1fr; */
+    /* padding: 1rem; */
+    width: 100vw;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: grid;
+    background-color:  #35382e;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    width: 95vw;
+    right: 2.5vw;
+    top: 2.5vw;
+    gap: 1rem;
+}
+header h1{
+    color: white;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+nav ul{
+    display: grid;
+    justify-content: end;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+}
+
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.myDescription{
+    display: grid;
+    width: 600px;
+    justify-self: center;
+    border-radius: 5px;
+    place-content: center;
+}
+.insideBox{
+    padding-top: 1rem;
+    line-height: 1.2rem;
+    border-radius: 5px;
+    background-color: #35382e;;
+}
+.insideBox h1{
+    text-align: center;
+    color: #facd01;
+    font-weight: 600;
+}
+.insideBox p{
+    color: white;
+    margin: 0.8rem;
+}
+.projects{
+    background-color:#ede6e2;
+    display: grid;
+    place-content: center;
+}
+
+.randomProjects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.myProjects{
+    background-color:white;
+    display: grid;
+    border: solid 1px rgba(31, 26, 26, 0.452);
+    width: 400px;
+    padding: 0.7rem;
+    border-radius: 2px;
+    gap: 0.7rem;
+}
+.myProjects .title{
+    color: #fb7a5f;;
+}
+.myProjects .goToProject a{
+    display: grid;
+    background-color: #fb7a5f;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.experience {
+    background-color: #5bc3eb;
+    display: grid;
+    place-content: center;
+}
+.experience .boxInside{
+    display: grid;
+    background-color: #ede6e2;
+    grid-template-columns: repeat(3, 1fr);
+    width: 500px;
+    justify-self: center;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+.boxInside .experienceTitle{
+    font-size: 1rem;
+}
+.backToTop{
+    background-color: #35382e;
+    text-align: center;
+    padding: 0.8rem;
+}
+.backToTop a{
+    color: white;
+    text-decoration: none;   
+}
